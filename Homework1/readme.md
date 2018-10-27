@@ -8,11 +8,10 @@ Choose any dataset from the Open Baltimore collection except for variations of t
 
 - Load the data into a Jupyter notebook. Explain briefly (using markdown) what the Open Baltimore website says about the dataset. Do a head(50) and tail(50) on the data frame after loading the data. Explain any observations you can make about the dataset and its quality from just that output.
 - Explore the data to understand what's in each of the columns. If the dataset has a very large number of columns (more than 10) you can choose a smaller subset of columns with which to work, but justify why you selected those columns. For each of the columns, but no more than 5 total columns:
-  - Describe what the column contains (e.g., the time at which a crime was committed, or the last sale price of a house) in prose
-	- Determine whether the column contains missing data, make a decision about how to handle them, and implement that decision
-	- Do the same for outliers or other unusual values. Determine if they exist and, if so, implement an approach to dealing with them
-	- Explain anything else interesting or unusual about the data in the column that you observed
-	Note that your code for both discovering missing values and outliers, as well as dealing with them, must be included in the notebook. Add explanatory markdown as needed.
+  - Describe what the column contains (e.g., the time at which a crime was committed, or the last sale price of a house) in prose.
+  - Determine whether the column contains missing data, make a decision about how to handle them, and implement that decision.
+  - Do the same for outliers or other unusual values. Determine if they exist and, if so, implement an approach to dealing with them.
+  - Explain anything else interesting or unusual about the data in the column that you observed. Note that your code for both discovering missing values and outliers, as well as dealing with them, must be included in the notebook. Add explanatory markdown as needed.
 - Create scatter plots of pairs of variables that you think might be related, and for two such plots do the following:
 	- Explain why you think the two variables might be related
 	- Show the scatter plot

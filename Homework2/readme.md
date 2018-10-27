@@ -2,7 +2,7 @@
 
 Here are your tasks.
 
-- ##Install MySQL: 
+- ## Install MySQL: 
 Click here to go to the "Installing and Upgrading MySQL" page. Then click on the link for your operating system. I installed in an Ubuntu VM and it went like this:
 
 	- I clicked on "2.5 Installing MySQL on Linux"
@@ -17,7 +17,7 @@ Click here to go to the "Installing and Upgrading MySQL" page. Then click on the
 	- Then I was asked for a root password for MySQL.
 	- To check the install, run sudo service mysql status. You should see something about MySQL being active and/or running.
 
-- ##Create a MySQL user for yourself:
+- ## Create a MySQL user for yourself:
 
 	- Run mysql --user root --password at the command line, enter the root password for MySQL that you created, and run the following queries
 	- CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
@@ -39,7 +39,7 @@ Write each of the following queries: For each query, turn in the query and the r
 - For the first three customers in alphabetal order by name, what is the name of every product they have ordered?
 - Install the python connector for MySQL: In this part of the homework you'll get experience running queries from python code and write a simple program to extract the structure of a MySQL database.
 
-- ##Go here to download the python connector:##
+- ## Go here to download the python connector:
 	- I chose "4.2 Installing Connector/Python from a Binary Distribution" and then looked under "Installing Connector/Python on Linux Using a Debian Package" since I'm on Ubuntu.
 	- I wound up on the Download Connector/Python page where I chose my operating system and downloaded the .deb file, then I resumed following the directions, which involved running a dpkg command on the file I just downloaded.
 	- Then you can test the installation by running python and trying import mysql.connector. If that does not produce an error, you're good to go.

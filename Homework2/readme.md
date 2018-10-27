@@ -5,17 +5,17 @@ Here are your tasks.
 - ## Install MySQL: 
 Click here to go to the "Installing and Upgrading MySQL" page. Then click on the link for your operating system. I installed in an Ubuntu VM and it went like this:
 
-	- I clicked on "2.5 Installing MySQL on Linux"
-	- I clicked on "2.5.1 Installing MySQL on Linux Using the MySQL Yum Repository", but it didn't look like there was a Yum repo for Ubuntu, so I went back.
-	- So I clicked on "2.5.3 Installing MySQL on Linux Using the MySQL APT Repository" and it listed Ubuntu.
-	- I was directed to "A Quick Guide to Using the MySQL APT Repository", so I went there.
-	- "Steps for a Fresh Installation of MySQL" looked promising, so I clicked on that
-	- I wound up on a page where I was able to download the APT repo, and it looked like I needed an Oracle Web account. But if you scroll down you'll see a link that says "No thanks, just start my download", so I did that.
-	- The result was a .deb file, and the instructions gave me a dpkg command to run, which I did.
-	- That popped up a window that asked what I wanted to install, so I just went with the defaults and chose "Ok".
-  	- I kept entering commands as suggested by the installation process, which downloaded and installed a bunch of stuff.
-	- Then I was asked for a root password for MySQL.
-	- To check the install, run sudo service mysql status. You should see something about MySQL being active and/or running.
+- I clicked on "2.5 Installing MySQL on Linux"
+- I clicked on "2.5.1 Installing MySQL on Linux Using the MySQL Yum Repository", but it didn't look like there was a Yum repo for Ubuntu, so I went back.
+- So I clicked on "2.5.3 Installing MySQL on Linux Using the MySQL APT Repository" and it listed Ubuntu.
+- I was directed to "A Quick Guide to Using the MySQL APT Repository", so I went there.
+- "Steps for a Fresh Installation of MySQL" looked promising, so I clicked on that
+- I wound up on a page where I was able to download the APT repo, and it looked like I needed an Oracle Web account. But if you scroll down you'll see a link that says "No thanks, just start my download", so I did that.
+- The result was a .deb file, and the instructions gave me a dpkg command to run, which I did.
+- That popped up a window that asked what I wanted to install, so I just went with the defaults and chose "Ok".
+- I kept entering commands as suggested by the installation process, which downloaded and installed a bunch of stuff.
+- Then I was asked for a root password for MySQL.
+- To check the install, run sudo service mysql status. You should see something about MySQL being active and/or running.
 
 - ## Create a MySQL user for yourself:
 

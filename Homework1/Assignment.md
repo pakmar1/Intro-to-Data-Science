@@ -2,8 +2,6 @@
 		
 In this homework you'll gain experience with Open Baltimore data, Jupyter notebooks, and pandas. Jupyter auto-saves notebooks with some regularity, but I also tend to "Save and Checkpoint" periodically on the File menu because you can always revert to a checkpoint.
 
-You will submit your homework as a notebook by uploading it as a file into the Slack channel for the TA (Prathusha Naidu) by 11:59pm the day the assignment is due. To do that, click on the + icon beside "Direct Messages" and start typing her name. As some point you'll see her name in a list of users below where you are typing. Click on her name. Once you're in a chat with Prathusha, click the big + next to the space where you enter a message, click on "Upload File" and then choose the notebook you want to submit. The system will then allow you to add a message, which you should make "Homework 1 submission for NAME".
-
 To add comments in your notebook, which you're asked to do to explain your thinking in a few places, you'll use markdown syntax in the cell. Look at the Basics tab on the main markdown page and it will tell you everything you need to know. Type your comments in a notebook cell and then either do "Cell" - "Cell Type" - "Markdown", or type CTRL-M M in the cell.
 
 Choose any dataset from the Open Baltimore collection except for variations of the Victim Based Crime Data that I explored in my DataExploration notebook. Choose a dataset that allows you to perform the following tasks:

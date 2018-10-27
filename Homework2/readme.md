@@ -2,7 +2,8 @@
 
 Here are your tasks.
 
-- ##Install MySQL:## Click here to go to the "Installing and Upgrading MySQL" page. Then click on the link for your operating system. I installed in an Ubuntu VM and it went like this:
+- ##Install MySQL: 
+Click here to go to the "Installing and Upgrading MySQL" page. Then click on the link for your operating system. I installed in an Ubuntu VM and it went like this:
 
 	- I clicked on "2.5 Installing MySQL on Linux"
 	- I clicked on "2.5.1 Installing MySQL on Linux Using the MySQL Yum Repository", but it didn't look like there was a Yum repo for Ubuntu, so I went back.
@@ -12,17 +13,17 @@ Here are your tasks.
 	- I wound up on a page where I was able to download the APT repo, and it looked like I needed an Oracle Web account. But if you scroll down you'll see a link that says "No thanks, just start my download", so I did that.
 	- The result was a .deb file, and the instructions gave me a dpkg command to run, which I did.
 	- That popped up a window that asked what I wanted to install, so I just went with the defaults and chose "Ok".
-  - I kept entering commands as suggested by the installation process, which downloaded and installed a bunch of stuff.
+  	- I kept entering commands as suggested by the installation process, which downloaded and installed a bunch of stuff.
 	- Then I was asked for a root password for MySQL.
 	- To check the install, run sudo service mysql status. You should see something about MySQL being active and/or running.
 
-- ##Create a MySQL user for yourself:##
+- ##Create a MySQL user for yourself:
 
 	- Run mysql --user root --password at the command line, enter the root password for MySQL that you created, and run the following queries
 	- CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
 	- GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' WITH GRANT OPTION;
 	- QUIT;
-  - Then run mysql -p and enter the password you just specified.
+  	- Then run mysql -p and enter the password you just specified.
 	- Try SHOW DATABASES; and you should see a few system DBs listed.
 	- Install the Retailer sample database: Go here for instructions on getting the sample database. The result is a .zip file that, when extracted, gives you a .sql file named mysqlsampledatabase.sql, which is nothing more than a series of SQL commands/queries. To run it, do this: mysql -u username < mysqlsampledatabase.sql. As usual, you'll have to enter your password
 
@@ -35,7 +36,7 @@ Write each of the following queries: For each query, turn in the query and the r
 - How many orders have not yet shipped?
 - How many orders where shipped less than 2 days before they were required?
 - For each distinct product line, what is the total dollar value of orders placed?
--For the first three customers in alphabetal order by name, what is the name of every product they have ordered?
+- For the first three customers in alphabetal order by name, what is the name of every product they have ordered?
 - Install the python connector for MySQL: In this part of the homework you'll get experience running queries from python code and write a simple program to extract the structure of a MySQL database.
 
 - ##Go here to download the python connector:##

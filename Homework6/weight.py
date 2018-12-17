@@ -6,9 +6,11 @@ sc = SparkContext("local", "app")
 
 graph_file = sc.textFile(sys.argv[1])
 
+#rdd (source, weight)
 counts = graph_file.map(lambda degree: (degree.split('\t')[0],int(degree.split('\t')[2]))) \
 .reduceByKey(lambda a,b: a+b) \
 .sortByKey(ascending=True)
 
-rmtree(sys.argv[2])
+if os.path.exists(sys.argv[2]):
+    rmtree(sys.argv[2])
 counts.saveAsTextFile(sys.argv[2])
